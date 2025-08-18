@@ -686,7 +686,7 @@ def save_obj_json(exp_suffix, exp_out_path, objects):
         obj_dict = {
             "id": curr_obj['curr_obj_num'],
             "object_tag": curr_obj['class_name'],
-            "object_caption": curr_obj['consolidated_caption'],
+            "object_caption": "asdfg", #curr_obj['consolidated_caption'],
             "bbox_extent": bbox_extent,
             "bbox_center": bbox_center,
             "bbox_volume": bbox_volume  # Add the volume to the dictionary
